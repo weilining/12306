@@ -1,11 +1,18 @@
 #### 12306 购票小助手
 
 - python版本支持
+
   - 2.7.10 - 2.7.15
 - 依赖库
   - 依赖若快 若快注册地址：http://www.ruokuai.com/client/index?6726 推荐用若快，打码兔平台已经关闭
   - 项目依赖包 requirements.txt
   - 安装方法-Windows:
+  - 安装方法-macOS: 
+     - 进入项目根目录
+     - sudo easy_install pip
+     - sudo pip install -r requirements.txt
+     - sudo pip install tensorflow --ignore-installed six
+     - sudo pip install -r requirements.txt
   - 安装方法-Linux:
       - root用户(避免多python环境产生问题): python2 -m pip install -i https://pypi.tuna.tsinghua.e pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txtdu.cn/simple -r requirements.txt
       - 非root用户（避免安装和运行时使用了不同环境）: sudo python2 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
@@ -32,7 +39,7 @@
       - ~~注: 若只有docker没有docker-compose. 可通过`pip install docker-compose`进行下载~~
 
 
-	
+​	
 
 - 目录对应说明
   - agency - cdn代理
